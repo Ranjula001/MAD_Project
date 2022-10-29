@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderSuccessful">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="207dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="92dp"
+        android:backgroundTint="#FFD80C"
+        android:text="Proceed Payment"
+        android:textColor="#070707"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="224dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="28dp"
+        android:text="Order Successfully!"
+        android:textColor="#070707"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="117dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="252dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/microsoftteams_image" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="207dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="516dp"
+        android:layout_marginEnd="92dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="View Order"
+        android:textColor="#070707"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000"
+        app:strokeWidth="3px" />
+</androidx.constraintlayout.widget.ConstraintLayout>
