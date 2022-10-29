@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Table booking</string>
+    <string name="button">Button</string>
+    <string name="book_now">Book Now</string>
+    <string name="_2_guests">2 Guests</string>
+    <string name="_4_guests">4 Guests</string>
+    <string name="_6_guests">6 Guests</string>
+    <string name="green_room">Green Room</string>
+    <string name="name_ed">name</string>
+    <string name="phone_ed">phone</string>
+    <string name="nic_ed">nic</string>
+    <string name="select_date_ed">select_date</string>
+    <string name="select_time_ed">select_time</string>
+    <string name="guest_ed">Guests</string>
+    <string name="edit_table_booking">edit_table_booking</string>
+    <string name="name_bo">name</string>
+    <string name="address_bo">Address</string>
+    <string name="nic_bo">NIC</string>
+    <string name="phone_bo">Phone</string>
+    <string name="select_date_bo">Select Date</string>
+    <string name="select_time_bo">select_time</string>
+    <string name="table_booking_bo">table_booking</string>
+    <string name="booking_successful">booking_successful</string>
+    <string name="table_booking_succ">table_booking</string>
+    <string name="name_can">Name</string>
+    <string name="nic_can">nic</string>
+    <string name="cancel_table_booking">cancel_table_booking</string>
+</resources>
