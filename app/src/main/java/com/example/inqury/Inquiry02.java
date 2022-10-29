@@ -120,7 +120,7 @@ public class Inquiry02 extends AppCompatActivity {
                             }
 
                         } else
-                            Toast.makeText(getApplicationContext(), "Update Successfully", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "No source to update", Toast.LENGTH_SHORT).show();
                     }
 
                     @Override
