@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "764352120762",
+    "firebase_url": "https://inqury-61789-default-rtdb.firebaseio.com",
+    "project_id": "inqury-61789",
+    "storage_bucket": "inqury-61789.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764352120762:android:09e2382e03718de28fbf83",
+        "android_client_info": {
+          "package_name": "com.example.inqury"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764352120762-dnf88bakgs7t1jrmvs3tp6j2tmfu44a2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcP2Bm8AAhCsgYSbpiIubvJ-aNxsPQSXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764352120762-dnf88bakgs7t1jrmvs3tp6j2tmfu44a2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

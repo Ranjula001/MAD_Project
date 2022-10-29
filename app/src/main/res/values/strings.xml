@@ -1,0 +1,23 @@
+
+
+<resources>
+    <string name="app_name">Inqury</string>
+
+    <string name="singleinquiry">TextView</string>
+    <string name="add">new_inquirt_add_button</string>
+    <string name="addtextView1">ADD Inquiry</string>
+    <string name="addtextView2">Name</string>
+    <string name="addtextView3">Phone</string>
+    <string name="addtextView4">Email</string>
+    <string name="addtextView5">Subject</string>
+    <string name="addtextView6">Content</string>
+    <string name="button_add">SUMBIT</string>
+    <string name="txt_toolbarName">Contact Us</string>
+    <string name="edit_inquiry">edit_inquiry</string>
+
+</resources>
+
+
+
+
+

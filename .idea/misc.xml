@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Food Ordring/app/src/main/res/drawable/add.xml" value="0.1895" />
+        <entry key="..\:/Food Ordring/app/src/main/res/drawable/ic_add.xml" value="0.1895" />
+        <entry key="..\:/Food Ordring/app/src/main/res/layout/activity_contact_us.xml" value="0.346875" />
+        <entry key="..\:/Food Ordring/app/src/main/res/layout/activity_delete_success.xml" value="0.24895833333333334" />
+        <entry key="..\:/Food Ordring/app/src/main/res/layout/activity_edit_inquiry.xml" value="0.346875" />
+        <entry key="..\:/Food Ordring/app/src/main/res/layout/activity_inquiry02.xml" value="0.2" />
+        <entry key="..\:/Food Ordring/app/src/main/res/layout/activity_main.xml" value="0.328125" />
+        <entry key="..\:/Food Ordring/app/src/main/res/layout/activity_succuess.xml" value="0.346875" />
+        <entry key="..\:/Food Ordring/app/src/main/res/layout/deletesucess.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
