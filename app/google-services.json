@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "936730582798",
+    "firebase_url": "https://foodbay-9fac6-default-rtdb.firebaseio.com",
+    "project_id": "foodbay-9fac6",
+    "storage_bucket": "foodbay-9fac6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936730582798:android:5f933d0f611d905d01815f",
+        "android_client_info": {
+          "package_name": "com.example.foodbay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936730582798-31iu78ekj351ess3kh2s0a10h0shn60e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9b9w9dqtG5Wgq_O6JJ-kUGJ_AnmcXux8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "936730582798-31iu78ekj351ess3kh2s0a10h0shn60e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

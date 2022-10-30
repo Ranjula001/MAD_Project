@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:backgroundTint="@color/black"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleX="1"
+        tools:context=".ActivityRegister">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/regi" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="336dp"
+            android:layout_height="85dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="-36dp"
+            android:layout_marginBottom="518dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/foodbaytopic" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="237dp"
+            android:layout_height="400dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="216dp"
+            android:layout_marginBottom="336dp"
+            android:adjustViewBounds="false"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/baymax" />
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="381dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="247dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="147dp"
+            android:layout_marginBottom="434dp"
+            android:text="WELCOME,"
+            android:textColor="@color/colorPrimary"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="390dp"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="394dp"
+            android:text="SignUp to discover our new offers and fresh meals for you !"
+            android:textColor="@color/material_dynamic_tertiary99"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="311dp"
+            android:backgroundTint="@color/teal_200"
+            android:ems="10"
+            android:hint="USER NAME"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:shadowColor="@color/teal_200"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="212dp"
+            android:backgroundTint="@color/teal_200"
+            android:ems="10"
+            android:hint="PASSWORD"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:shadowColor="@color/teal_200"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/confirmpw"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="164dp"
+            android:backgroundTint="@color/teal_200"
+            android:ems="10"
+            android:hint="CONFIRM-PASSWORD"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:shadowColor="@color/teal_200"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/contact"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="119dp"
+            android:backgroundTint="@color/teal_200"
+            android:ems="10"
+            android:hint="Eg :- 0701234567"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="305dp"
+            android:layout_height="62dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="44dp"
+            android:layout_marginBottom="55dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="REGISTER"
+            android:textColor="#050505"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/regbypass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="11dp"
+            android:backgroundTint="#EDE9E9"
+            android:backgroundTintMode="src_in"
+            android:foregroundTint="#100F0F"
+            android:text="ALREDY HAVE AN ACCOUNT ? LOGIN"
+            android:textColor="#050505"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:iconTint="#191818" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="58dp"
+            android:layout_marginBottom="260dp"
+            android:backgroundTint="@color/teal_200"
+            android:ems="10"
+            android:hint="EMAIL"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:shadowColor="@color/teal_200"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
