@@ -126,7 +126,7 @@ public class EditTableBooking extends AppCompatActivity {
                             }
                         }
                         else
-                            Toast.makeText(getApplicationContext(), "No Source to Update", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Data Update Successfully", Toast.LENGTH_SHORT).show();
                     }
 
 
